@@ -6,3 +6,184 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+   box-sizing: border-box; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Nav-bar */
+header{
+    position: absolute;
+    
+}
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar img {
+    display: block;
+    width: 230px;
+    height: 100%;
+}
+.nav-controls {
+    display: flex;
+    gap: 70px;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+/* Section-1*/
+#section-1{
+    height: 100vh;
+    background-image: url(/images/landing.jpg);
+    background-position-y: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+#section-1 h1{
+    font-size: 7.2rem;
+    font-weight: bold;
+}
+#section-1 h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#section-1 h3:nth-child(1) {
+    padding-bottom: 20px;
+}
+
+/* Section-2*/
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+#section-2 > h2 {
+    font-weight: bold;
+    align-self: center;
+    width: max-content;
+    font-size: 2.8rem;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #00B172;
+}
+.img-controler {
+    width: 150px;
+}
+.services {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0 5%;
+}
+.box-controler {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.box-controler > h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #00B172;
+}
+.box-controler > h3 {
+    font-size: 1.9rem;
+    width: 300px;
+    margin-top: 5px;
+}
+.edit-b1 > h2, h3{
+    margin-top: -10px;
+}
+
+/* Section-3 */
+#section-3 {
+    height: 100vh;
+    margin: 0% 2%;
+    background-image: url(/images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00B172;
+    background-size: 10%;
+}
+.app-listing {
+    height: 95%;
+    padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.app-listing img {
+    display: block;
+    width: 440px;
+    align-self: flex-end;
+}
+.discover-content {
+    margin: 8% 0 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+article {
+    width: 445px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.discover-content > h1 {
+    font-size: 3.9rem;
+    color: #FFF;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #FFF;
+
+}
+article > div > h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFF;
+}
+article > div > h3 {
+    font-size: 1.8rem;
+    color: #FFF;
+}
+.margin-general {
+    margin: 10px 0;
+}
